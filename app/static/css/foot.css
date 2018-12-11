@@ -1,0 +1,90 @@
+/***********   尾部导航        *********/
+.footer_nav{
+	width: 1350px;
+	height: 240px;
+	padding: 0 75px;
+}
+.footer_nav dl{
+	float: left;
+	width: 200px;
+	font-size: 12px;
+	/*line-height: 16px;*/
+}
+.footer_nav dl a{
+	/*float: left;*/
+	width: 197px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #333333;
+}
+.footer_nav dl a:hover{
+	color: blue;
+}
+.footer_nav dl dt{
+	height: 16px;
+	color: #333;
+	padding-bottom: 15px;
+}
+.footer_nav dl dd a{
+	/*width: auto;*/
+	height: 12PX;
+	line-height: 22px;
+	text-align: center;
+	
+}
+.footer_nav dl li{
+	font-size: 20px;
+	color: #000000;
+}
+.footer_nav dl li a span{
+	color: blue;
+	font-size: 20px;
+	margin-left: 16px;
+}
+.footer_nav dl .rr{
+	text-align: right;
+}
+/******************************************/
+.footer_left{
+	float: left;
+	width: 950px;
+	height: 40px;
+	line-height: 12px;
+	font-size: 12px;
+	margin-left: 75px;
+}
+.footer_left li a{
+	height: 12px;
+	line-height: 12px;
+	font-size: 12px;
+	margin: 0 2px 0 2px;
+	color: #666;
+}
+.footer_left li a img{
+	width: 12px;
+	height: 12px;
+}
+.footer_right{
+	float: right;
+	width: 180px;
+	height: 40px;
+	
+	
+}
+.footer_right li{
+	width: 90px;
+	font-size: 12px;
+	display: flex;
+	line-height: 12px;
+	float: left;
+	color: #666;
+}
+.footer_right li:last-child span{
+	margin: 10px;
+}
+.footer_right li a{
+	width: 90px;
+	margin: 0 10px;
+	font-size: 12px;
+	line-height: 12px;
+}

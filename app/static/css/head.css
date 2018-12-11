@@ -1,0 +1,275 @@
+.head {
+	height: 650px;
+}
+
+#log {
+	width: 1350px;
+	height: 637px;
+	overflow: hidden;
+	position: relative;
+}
+
+#img {
+	position: absolute;
+	top: 0;
+	left: 60px;
+}
+
+.nav {
+	padding-top: 10px;
+	width: 1050px;
+	z-index: 99;
+	padding-left: 300px;
+	background-color: #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-bottom: 10px;
+}
+
+.nav>li {
+	position: relative;
+	border-left: 1px solid #000;
+	font-size: 12px;
+	text-align: center;
+	float: left;
+}
+
+.nav>li>a {
+	width: auto;
+	margin: 0 20px;
+	display: flex;
+	color: #fff;
+	font-weight: 900;
+	font-size: 14px;
+}
+
+
+/****************  导航栏下四个下拉   ********************/
+
+#dis0 {
+	width: 1350px;
+	height: 240px;
+	position: absolute;
+	top: -10px;
+	left: -301px;
+	display: none;
+	z-index: -1;
+	background: #000;
+	opacity: 0.5;
+}
+
+.nex:hover #dis0 {
+	display: block;
+}
+
+#dis1 {
+	width: 1350px;
+	height: 240px;
+	position: absolute;
+	top: -10px;
+	left: -400px;
+	display: none;
+	z-index: -1;
+	background: #000;
+	opacity: 0.5;
+}
+
+.nex:hover #dis1 {
+	display: block;
+}
+
+#dis2 {
+	width: 1350px;
+	height: 240px;
+	position: absolute;
+	top: -10px;
+	left: -480px;
+	display: none;
+	z-index: -1;
+	background: #000;
+	opacity: 0.5;
+}
+
+.nex:hover #dis2 {
+	display: block;
+}
+
+#dis3 {
+	width: 1350px;
+	height: 240px;
+	position: absolute;
+	top: -10px;
+	left: -558px;
+	display: none;
+	z-index: -1;
+	background: #000;
+	opacity: 0.5;
+}
+
+.nex:hover #dis3 {
+	display: block;
+}
+
+
+/************* 下拉栏的内容    ******************/
+
+.show {
+	width: 200px;
+	height: 190px;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	color: #fff;
+	display: none;
+	text-align: left;
+	position: absolute;
+	left: -1px;
+	bottom: -220px;
+	z-index: 999;
+}
+
+.show li a {
+	line-height: 33px;
+	color: white;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.show li a:hover {
+	color: #666;
+}
+
+.nex:hover .show {
+	display: block;
+	/*color: #333;*/
+	border-left: 1px solid #333;
+}
+
+.nex:hover {
+	border-left: 1px solid #333;
+}
+
+.nav li a:hover {
+	color: #666;
+}
+
+
+/**********   我的下拉框   ********/
+
+.jion {
+	position: absolute;
+	/*top: 40px;*/
+	bottom: -210px;
+	right: 10px;
+	width: 120px;
+	height: 190px;
+	/*background: #fff;*/
+	z-index: 990;
+	display: none;
+	padding-top: 20px;
+	text-align: left;
+}
+
+.jion li {
+	margin-bottom: 10px;
+}
+
+.jion li:first-child {
+	margin-top: 20px;
+}
+
+.jion li a {
+	font-size: 14px;
+	font-weight: 900;
+	color: #666;
+	/*text-align: left;*/
+}
+
+.jion li a i {
+	margin-right: 16px;
+}
+
+.jion li a:hover {
+	color: blue;
+}
+
+._pull a {
+	padding-top: 3.5px;
+}
+
+._pull:hover .jion {
+	display: block;
+	line-height: 33px;
+}
+
+._pull #dis4 {
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	width: 120px;
+	height: 190px;
+	background: #fff;
+	display: none;
+}
+
+._pull:hover #dis4 {
+	display: block;
+}
+
+
+/**********  banner图  ************/
+
+.banner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 637px;
+	width: 1350px;
+}
+
+.banner li {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1350px;
+	height: 637px;
+}
+.banner li img{
+	width: 1350px;
+	height: 637px;
+}
+
+.banner li.active {
+	display: block;
+}
+
+ol {
+	position: absolute;
+	left: 583px;
+	bottom: 40px;
+	width: 200px;
+	height: 2px;
+}
+
+ol li {
+	float: left;
+	width: 40px;
+	height: 2px;
+	margin-right: 8px;
+	cursor: default;
+	background-color: #aaa;
+}
+ol li.current {
+	height: 5px;
+	background-color:#666;
+}
+/****************  图层导航    *******/
+
+.menu_nav {
+	position: absolute;
+	top: 20px;
+	left: 75px;
+	background: #f7f7f5;
+}

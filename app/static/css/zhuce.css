@@ -1,0 +1,150 @@
+@charset"utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,figure,figcaption,img{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+fieldset,img{border:0;}
+img{display:block;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+ul,ol,li{list-style:none;}
+a,u{text-decoration:none;}
+b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+input{outline:none;}
+html,body{height:100%;}
+#box{
+	width: 1349px;
+	height: 964px;
+	background: #f7f7f7;
+	margin:0 auto;
+	position: relative;
+}
+.zhuce-box{
+	width: 862px;
+	height: 670px;
+	background: white;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 245px;
+}
+.zhuce-box img{
+	display: inline-block;
+	margin-top:60px;
+	margin-left: 355px;
+}
+.zhuce-box h2{
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin: 34px 0 64px 0;
+}
+.zhuce-box .sel1{
+	display: inline-block;
+	width: 360px;
+	height: 48px;
+	margin-left: 250px;
+	border: 1px solid #999;
+	background: url(../images/注册-下拉箭头_03.png) no-repeat 320px center;
+	-webkit-appearance: none;   /* Safari 和 Chrome */
+    -moz-appearance: none;   /* Firefox */
+}
+.zhuce-box .h31{
+	font-size: 12px;
+	color: #999999;
+	line-height: 44px;
+	margin-left: 250px;
+}
+.zhuce-box .sel2{
+	display: inline-block;
+	width: 84px;
+	height: 48px;
+	margin-left: 250px;
+	background: url(../images/注册-下拉2_03.png) no-repeat 50px center;
+	border: 1px solid #999;
+	-webkit-appearance: none;   /* Safari 和 Chrome */
+    -moz-appearance: none;   /* Firefox */
+   border-right:none;
+}
+.zhuce-box .tel{
+	display: inline-block;
+	width: 274px;
+	height: 44px;
+	border: 1px solid #999;
+	border-left:none;
+	margin-left: -8px;
+}
+.erro{
+	color: red;
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: 8px;
+	margin-left: 250px;
+}
+.zhuce-box .checkbox{
+	width: 360px;
+	height: 18px;
+	margin-left: 250px;
+	margin-top:21px ;
+	position: relative;
+	
+}
+.zhuce-box .check {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+.zhuce-box .checkbox .h32{
+	width: 200px;
+	font-size: 12px;
+	line-height: 18px;
+	position: absolute;
+	top:0;
+	left: 25px;
+}
+.zhuce-box .checkbox .span{
+	color:#2890f9;
+}
+button{
+     border:none ;
+	width: 360px;
+	height: 48px;
+	margin-left: 250px;
+	background: #2890F9;
+	margin-top: 22px;
+}
+.zhuce-box button .p1{
+	font-size: 16px;
+	color: white;
+}
+.info{
+	position: absolute;
+	width: 320px;
+	height: 14px;
+    left:523px ;
+	bottom:65px;
+	background: url(../images/online-service.0c3db86.png) no-repeat,url(../images/注册-手机_03.png) no-repeat 102px 0;
+	background-size:14px 14px ;
+}
+.info .span1,.span2{
+	display: inline-block;
+	font-size:12px ;
+	line-height: 14px;
+	color: #666666;
+	position: absolute;
+}
+.info .span1{
+	left:19px;
+}
+.info .span1:hover{
+	color: #2890F9;
+}
+.info .span2{
+	left:121px;
+}
+h4{
+	font-size: 12px;
+	position: absolute;
+	bottom:42px;
+	left: 298px;
+	line-height: 12px;
+	color:#9d9d9d;
+}
+
