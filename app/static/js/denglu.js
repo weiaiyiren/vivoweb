@@ -64,7 +64,7 @@ $btn_dl.onclick = function() {
 		return false;
 	} else {
 		//发送ajax
-			sendAjax('http://10.36.141.182:88/git/vivoweb/server/php/denglu.php', {
+			sendAjax('http://10.36.141.213:88/git/vivoweb/server/php/denglu.php', {
 			data: {
 				user: $phone.value,
 				pass: $password.value

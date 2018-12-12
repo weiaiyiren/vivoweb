@@ -32,8 +32,8 @@ $btn.onclick = function() {
 		$tel.focus();
 		return false;
 	} else {
-		//这里将来发送ajax验证
-		sendAjax('http://10.36.141.182:88/git/vivoweb/server/php/check_tel.php', {
+		//发送ajax验证
+		sendAjax('http://10.36.141.213:88/git/vivoweb/server/php/check_tel.php', {
 			data: {
 				user: $tel.value
 			},

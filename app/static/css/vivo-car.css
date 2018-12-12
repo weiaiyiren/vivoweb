@@ -1,0 +1,43 @@
+@charset"utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,figure,figcaption,img{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+fieldset,img{border:0;}
+img{display:block;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+ul,ol,li{list-style:none;}
+a,u{text-decoration:none;}
+b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+input{outline:none;}
+html,body{height:100%;}
+#car-box{
+	background: #f7f7f5;
+	width: 1349px;
+	height: 1251px;
+	margin: 0 auto;
+}
+.car-logo{
+	margin-left: 75px;
+	padding-top: 10px;
+}
+.mycar{
+	width: 1200px;
+	height: 66px;
+	text-align: center;
+	background: white;
+	margin: 44px auto;
+	line-height: 66px;
+	font-size: 18px;
+	position: relative;
+}
+.back{
+	line-height: 12px;
+	font-size: 12px;
+	color: #333;
+	position: absolute;
+	right: 36px;
+	top: 28px;
+}
+.back:hover{
+	color: red;
+}

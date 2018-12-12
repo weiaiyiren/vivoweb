@@ -6,9 +6,11 @@ function sendAjax(url, obj) {
 		data: null,
 		success: undefined
 	}
-	for(var key in _default) {
-		if(key in obj) {
-			_default[key] = obj[key];
+	if (obj) {
+		for(var key in _default) {
+			if(key in obj) {
+				_default[key] = obj[key];
+			}
 		}
 	}
 	_default.method = _default.method.toUpperCase()

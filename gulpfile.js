@@ -72,4 +72,4 @@ gulp.task('connect', function() {
 	});
 });
 
-gulp.task('default', ['minijs', 'minicss', 'minihtml', 'miniimg', 'miniimgs', 'watch', 'connect']);
+gulp.task('default', ['watch', 'connect']);
