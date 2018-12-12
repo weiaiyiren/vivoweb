@@ -4,7 +4,7 @@ var swiper = (function() {
 	var $imagesAll = document.querySelectorAll('.banner li');
 	console.log($imagesAll);
 	var timer = null;
-	var showIndex = 0;
+	var index = 0;
 	return {
 		init: function() {
 			this.event();
@@ -26,7 +26,7 @@ var swiper = (function() {
 				$liAll[i].removeAttribute('class');
 				move($imagesAll[i], {
 					opacity: 0
-				}, 1000, function(ele) {
+				}, 500, function(ele) {
 					ele.removeAttribute('class');
 				});
 			}
@@ -35,18 +35,19 @@ var swiper = (function() {
 			$imagesAll[index].setAttribute('class', 'active');
 			move($imagesAll[index], {
 				opacity: 100
-			}, 2000);
+			}, 1000);
 		},
 		autoPlay: function(index) {
 			index = index || 0;
 			var _this = this;
+			_this.showIamge(index);
 			clearInterval(timer);
 			timer = setInterval(function() {
+				index++;
 				if(index == $liAll.length) {
 					index = 0;
 				}
 				_this.showIamge(index);
-				index++;
 			}, 3000);
 		}
 	}
