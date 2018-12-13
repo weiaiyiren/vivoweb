@@ -54,6 +54,9 @@ gulp.task('miniimgs', function() {
 		.pipe(gulp.dest('dist/static/img'))
 		.pipe(connect.reload())
 })
+//压缩所有文件
+gulp.task('miniall',['minijs','minicss','minihtml','miniimg','miniimgs']);
+
 //任务监听
 gulp.task('watch', function() {
 	gulp.watch('app/static/js/*.js', ['minijs']);

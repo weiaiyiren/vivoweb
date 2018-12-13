@@ -16,6 +16,15 @@ html,body{height:100%;}
 	height: 1251px;
 	margin: 0 auto;
 }
+#log {
+	width: 1349px;
+	height:1251px;
+	position: relative;
+}
+.head{
+	width: 1349px;
+	height:1251px;
+}
 .car-logo{
 	margin-left: 75px;
 	padding-top: 10px;
@@ -25,7 +34,7 @@ html,body{height:100%;}
 	height: 66px;
 	text-align: center;
 	background: white;
-	margin: 44px auto;
+	margin: 44px auto 0 auto;
 	line-height: 66px;
 	font-size: 18px;
 	position: relative;
@@ -40,4 +49,164 @@ html,body{height:100%;}
 }
 .back:hover{
 	color: red;
+}
+.shop-head{
+	height: 64px;
+	width: 1200px;
+	margin: 19px auto 2px auto;
+	background: white;
+}
+.shop-head li{
+	float:left;
+	line-height: 64px;
+	font-size: 12px;
+	width: 120px;
+	height: 64px;
+	text-align: center;
+}
+#check{
+	margin-left: 25px;
+}
+.shop-head li:nth-child(1){
+	width: 100px;
+}
+.shop-head li:nth-child(2){
+	width: 360px;
+}
+.shop-info{
+	position: relative;
+	height: 282px;
+	width: 1200px;
+	margin: 0 auto 19px auto;
+	background: white;
+}
+.shop-info li{
+	float:left;
+	line-height: 152px;
+	font-size: 12px;
+	width: 120px;
+	height:282px;
+	text-align: center;
+}
+.shop-info li:nth-child(1){
+	width: 100px;
+}
+.shop-info li:nth-child(2){
+	width: 360px;
+}
+.shop-info li:nth-child(2) .car-shop{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #ececec;
+	float: left;
+	margin:25px 0px;
+}
+.shop-info li:nth-child(2) p{
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+.shop-info span{
+	color: red;
+}
+.car-zs{
+	position: absolute;
+	left: 79px;
+	bottom: 27px;
+}
+.js{
+	margin: 0 auto 180px auto;
+	width: 1200px;
+	height: 98px;
+	background: white;
+}
+.quanxuan{
+	margin:41px 18px 0 46px ;
+	float: left;
+	font-size:14px;
+	line-height: 98px;
+}
+.p1{
+	margin-right:30px ;
+	float: left;
+	font-size:14px;
+	line-height: 98px;
+}
+.p2{
+	margin-right:30px ;
+	float: left;
+	font-size:14px;
+	line-height: 98px;
+}
+.p2:hover{
+	color: red;
+}
+.p3{
+	margin-right:276px ;
+	float: left;
+	font-size:14px;
+	line-height: 98px;
+}
+.p4{
+	margin-right:20px;
+	float: left;
+	font-size:12px;
+	line-height: 98px;
+}
+.p4 .nexphone{
+	color: red;
+}
+.p4 .count-price{
+	color: red;
+	font-size: 26px;
+}
+.js i{
+	width: 160px;
+	height: 46px;
+	background: red;
+	color: white;
+	font-size:18px ;
+	line-height: 46px;
+	float: left;
+	margin-top: 29px;
+	text-align: center;
+	border-radius: 46px;
+}
+.footer_nav{
+	background: white;
+}
+.footer{
+	background: white;
+}
+.jian{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: white;
+	border: 1px solid #aaa;
+	border-right: 0;
+      margin-right: -5px;
+}
+.count{
+	width: 26px;
+	height: 24px;
+}
+.jia{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: white;
+	border: 1px solid #aaa;
+	border-left: 0;
+      margin-left:-4px;
+}
+#box{
+	width: 1349px;
+	height: 664px;
+	background: #f7f7f5;
+}
+h6{
+	font-size:50px ;
+	text-align: center;
+	margin: 50px auto;
 }

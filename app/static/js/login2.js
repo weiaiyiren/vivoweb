@@ -3,7 +3,7 @@ var tel = localStorage.getItem('tel');
 var $form = document.querySelector('form');
 var $eye=document.querySelector('.zhuce-box i img');
 $phone.innerHTML = tel;
-//localStorage.clear();
+localStorage.removeItem('tel');
 var $code = document.querySelector('#code');
 var $password = document.querySelector('#password');
 var $btn = document.querySelector('.btn');

@@ -1,0 +1,437 @@
+li{
+	border-radius: 6px;
+}
+p{
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.return_nav{
+	padding-top: 54px;
+	padding-left: 175px;
+	height: 24px;
+	width: 1175px;
+	font-size: 12px;
+	color: #999;
+}
+.return_nav a{
+	line-height: 24px;
+	font-size:12px;
+	margin: 4px;
+}
+/**********************************/
+
+#shop_show{
+	width: 1350px;
+	height: 2000px;
+	border-bottom: 1px solid #999;
+}
+
+/***********  购物车左边     *******************/
+.shop_img{
+	width: 700px;
+	height: 750px;
+	position: absolute;
+	top: 78px;
+	left: 0px;
+}
+#hot{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 60px;
+	left: 500px;
+}
+#hot img{
+	width: 100px;
+	height: 100px;	
+}
+#product{
+	width: 500px;
+	height: 500px;
+}
+#product img{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top:100px;
+	left: 100px;
+}
+.shop_banner{
+	width: 500px;
+	height: 152px;
+	position: absolute;
+	top:600px;
+	left: 100px;
+}
+.shop_banner li{
+	float: left;
+	text-align: center;
+	line-height: 85px;
+}
+.shop_banner li a img{
+	width: 79px;
+	height: 85px;
+}
+.shop_banner li a i{
+	font-size: 20px;
+}
+.shop_img .sss{
+	width: 700px;
+	text-align: center;
+	position: absolute;
+	top: 720px;
+}
+.shop_img .sss li a{
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+}
+/***********  购物车右边     *******************/
+.shop_list{
+	width: 508px;
+	height: 2000px;
+	position: absolute;
+	top: 120px;
+	left:750px;
+}
+
+.shop_list h1{
+	text-align: center;
+	font-size: 20px;
+}
+.shop_list p span{
+	color: red;
+}
+
+.price{
+	width: 508px;
+	height: 200px;
+	padding: 20px 0;
+	margin: 20px 0;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	display: flex;
+}
+.left{
+	padding-top: 60px;
+	text-align: center;
+	width: 194px;
+	height: 140px;
+	border-right: 1px solid #333333;
+}
+
+#new{
+	color: red;
+	font-size: 30px;
+}
+#old{
+	text-decoration: line-through;
+	color:#d7d7d7 ;
+	font-size: 20px;
+}
+/************   右边    **********/
+.right{
+	font-size: 16px;
+	padding-top: 30px;
+	width: 313px;
+	height: 140px;
+	padding-left:40px;
+	line-height: 30px;
+}
+.right span{
+	color: #fff;
+	background: red;
+	margin-right: 18px;
+	width: 38px;
+}
+.right i{
+	color: red;
+	border: 1px solid #333;
+	margin-right: 10px;
+}
+.right a{
+	font-size: 14px;
+	text-align: center;
+}
+.right a img{
+	width: 40px;
+	height: 40px;
+	margin: 0 2px;
+}
+dl{
+	width: 508px;
+	height: 70px;
+	font-size: 14px;
+}
+#shop_show dt{
+	float: left;
+	margin: 2px 10px 20px 10px; 
+}
+#shop_show dd{
+	float: left;
+	margin: 2px 10px 20px 10px; 
+}
+/****   选择机型   ******/
+.topy{
+	margin-bottom: 40px;
+	height: 160px;
+}
+/*.topy p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}*/
+.topy li{
+	line-height: 39px;
+	text-align: center;
+	font-size: 14px;
+	width: 223px;
+	height: 37px;
+	float: left;
+	margin: 0 0 20px 10px;
+	border: 1px solid #333;
+}
+/********* 选择套餐   */
+.combo{
+	height: 232px;
+}
+.combo li{
+	text-align: center;
+	font-size: 14px;
+	width:148px;
+	height: 71px;
+	float: left;
+	margin: 0 0 20px 10px;
+	border: 1px solid #333;
+}
+.combo li h2{
+	line-height: 30px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+.combo li span{
+	line-height: 23px;
+	margin-left: 3px;
+}
+.combo li p{
+	font-size: 16px;
+	/*margin-bottom: 20px;*/
+}
+/****  手机服务  */
+.serve{
+	font-size: 14px;
+	width: 508px;
+	height: 320px;
+	padding-left: 15px;
+}
+/*.serve p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}*/
+.serve a{
+	font-size: 14px;
+	text-decoration: underline;
+}
+.serve p a:hover{
+	color: red;
+}
+.serve li{
+	position: relative;
+	width: 476px;
+	height: 59px;
+	margin-bottom: 20px;
+	border: 1px solid #333;
+	line-height: 59px;
+	font-size: 14px;
+}
+.serve li label{
+	margin-left: 15px;
+	text-align: left;
+}
+.serve li span{
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	right: 40px;
+}
+#TOS{
+	height: 20;
+	line-height: 20px;
+	font-size: 14px;
+}
+#TOS input{
+	width: 20px;
+	height: 20px;
+}
+#tt{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+/*******  单价和数量   ********/
+.date{
+	height:470px ;
+}
+.date dt{
+	font-size: 20px;
+}
+.date dt span{
+	font-size: 14px;
+	margin-left:5px ;
+}
+.date dt span:hover{
+	color: red;
+}
+.date dt span:hover div{
+	display: block;
+}
+.date dt span div{
+	width: 500px;
+	height: 264px;
+	display: none;
+	font-size: 12px;
+	color: #333;
+	padding-left: 20px;
+}
+.date dt span div li{
+	list-style-type:disc;
+}
+/*******************/
+.date dt .mf{
+	position: relative;
+	width: 476px;
+	height: 59px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 1px solid #333;
+	line-height: 59px;
+	font-size: 20px;
+	text-align: center;
+}
+.mf input{
+	width: 20px;
+	height: 20px;
+}
+/*************************/
+.date .num{
+	border: 1px;
+}
+.date .num i{
+	font-size: 20px;
+}
+.date .num input{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	/*border: 0;*/
+}
+.date .num .jia{
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	background: white;
+	border: 1px solid #aaa;
+	border-left: 0;
+	margin-left: -6px;
+}
+.date .num .jian{
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	background: white;
+	border: 1px solid #aaa;
+	border-right: 0;
+	margin-right: -6px;
+}
+.date .line{
+	width: 508px;
+	height: 40px;
+}
+.danjia{
+	height: 40px;
+	padding: 60px 0;
+}
+.danjia div{
+	float: left;
+}
+.danjia div:nth-child(1){
+	width: 110px;
+	margin-right: 10px;
+	color: red;
+	font-size: 30px;
+	/*border-right: 1px;*/
+}
+.danjia div:nth-child(1) b{
+	margin-right: 10px;
+	
+}
+.danjia div:nth-child(2){
+	width: 350px;
+	margin-left: 30px;
+	font-size: 16px;
+}
+.jion_{
+	display: inline-block;
+	width: 170px;
+	height: 46px;
+	color: white;
+	font-size:16px;
+	border: none;
+	border-radius: 40px;
+	background: #ff9536;
+	margin-right: 20px;
+}
+.buy{
+	display: inline-block;
+	width: 170px;
+	height: 46px;
+	color: white;
+	font-size: 16px;
+	border: none;
+	border-radius: 40px;
+	background: #f51200;
+}
+
+/***************************/
+.list{
+	width: 1200px;
+	height: 40px;
+	/*margin-left: 0 75px;*/
+	color: #333;
+}
+.list li{
+	height: 30px;
+	width: auto;
+	float: left;
+	line-height: 40px;
+}
+.list li a{
+	font-size: 20px;
+	margin: 10px;
+	text-align: center;
+}
+/**********************/
+#banner{
+	height: auto;
+}
+#banner img{
+	width: 1350px;
+}
+.dd{
+	width: 1200px;
+	margin: 0 75px;
+	height: 60px;
+	padding-top: 30px;
+	border-bottom: 1px solid;
+}
+.dd li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	margin: 0 110px;
+}

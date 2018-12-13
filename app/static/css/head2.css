@@ -1,0 +1,259 @@
+.head{
+	height: 650px;
+}
+.log{
+	width: 1350px;
+	/*height: 640px;*/
+	position: relative;
+}
+#img{
+	position: absolute;
+	top: 0;
+	left: 75px;
+}
+#img a{
+	color: blue;
+	font-size: 28px;
+	font: arial;
+	/*margin-left: 100px;*/
+}
+.nav{
+	padding-top: 10px;
+	width: 1050px;
+	z-index: 99;
+	padding-left: 300px;
+	background-color: #2f2f2f;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 24px;
+	padding-bottom:10px;
+}
+.nav>li {
+	position: relative;
+	border-left: 1px solid #2f2f2f;
+	font-size: 12px;
+	text-align: center;
+	float: left;
+}
+.nav>li>a{
+	width: auto;
+	margin: 0 20px;
+	display: flex;
+	color: #fff;
+	font-weight: 900;
+	font-size: 14px;
+	
+}
+/****************  导航栏下四个下拉   ********************/
+#dis0{
+	width: 1350px;
+	height: 240px;
+	position: absolute;
+	top:-10px ;
+	left: -301px;
+	display: none;
+	z-index: -1;
+	background: #000;
+	opacity: 0.5;
+}
+.nex:hover #dis0{
+	display: block;
+	
+}
+#dis1{
+	width: 1350px;
+	height: 240px;
+	position: absolute;
+	top:-10px ;
+	left: -400px;
+	display: none;
+	z-index: -1;
+	background: #000;
+	opacity: 0.5;
+}
+.nex:hover #dis1{
+	display: block;
+	
+}
+#dis2{
+	width: 1350px;
+	height: 240px;
+	position: absolute;
+	top:-10px ;
+	left: -480px;
+	display: none;
+	z-index: -1;
+	background: #000;
+	opacity: 0.5;
+}
+.nex:hover #dis2{
+	display: block;
+}
+#dis3{
+	width: 1350px;
+	height: 240px;
+	position: absolute;
+	top:-10px ;
+	left: -558px;
+	display: none;
+	z-index: -1;
+	background: #000;
+	opacity: 0.5;
+}
+.nex:hover #dis3{
+	display: block;	
+}
+/************* 下拉栏的内容    ******************/
+.show {
+	width: 200px;
+	height: 190px;
+	padding-left: 20px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	color:  white;
+	display: none;
+	text-align: left;
+	position: absolute;
+	left: -1px;
+	bottom: -220px;
+	z-index: 999;
+}
+.show li a{
+	line-height: 33px;
+	color: white;
+	font-size: 14px;
+	font-weight: 900;
+}
+.show li a:hover{
+	color: #666;
+}
+.nex:hover .show{
+	display: block;
+	/*color: #333;*/
+	border-left: 1px solid #333;
+}
+.nex:hover{
+	border-left: 1px solid #333;
+}
+.nav li a:hover{
+	color: #666;
+	
+}
+/**********   我的下拉框   ********/
+.jion{
+	position: absolute;
+	/*top: 40px;*/
+	bottom: -210px;
+	right: 10px;
+	width: 120px;
+	height: 190px;
+	/*background: #fff;*/
+	z-index: 990;
+	display: none;
+	padding-top: 20px;
+	text-align: left;
+}
+.jion li{
+	margin-bottom: 10px;
+}
+.jion li:first-child{
+	margin-top: 20px;
+
+}
+.jion li a{
+	font-size: 14px;
+	font-weight: 900;
+	color: #666;
+	/*text-align: left;*/
+}
+.jion li a i{
+	margin-right:16px ;
+}
+.jion li a:hover{
+	color: #0c9dd9;
+}
+._pull a {
+	padding-top:3.5px ;
+}
+._pull:hover .jion{
+	display: block;
+	line-height: 33px;
+}
+._pull #dis4{
+	position: absolute;
+	top: 40px;
+	right:20px ;
+	width: 120px;
+	height: 190px;
+	background: #fff;
+	display: none;
+}
+._pull:hover #dis4{
+	display: block;
+}
+/**********  banner图  ************/
+.banner{
+	position: absolute;
+	left: 0px;
+	top: 0;
+	overflow: hidden;
+	height: 637px;
+	width: 1350px;
+	z-index: 2;
+}
+.banner li img{
+	width: 1350px;
+	height: 640px;
+}
+/****************  图层导航    *******/
+/*.menu_nav{
+	position: absolute;
+	top: 20px;
+	left: 75px;
+	background: #f7f7f5;
+}*/
+.gwc{
+	position: fixed;
+	right: 0;
+	bottom: 50px;
+	
+}
+.gwc li a i{
+	width: 50px;
+	height: 200px;
+	font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
