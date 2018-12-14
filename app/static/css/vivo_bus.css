@@ -336,7 +336,7 @@ dl{
 	background: white;
 	border: 1px solid #aaa;
 	border-left: 0;
-	margin-left: -6px;
+	margin-left: 0px;
 }
 .date .num .jian{
 	display: inline-block;
@@ -345,7 +345,7 @@ dl{
 	background: white;
 	border: 1px solid #aaa;
 	border-right: 0;
-	margin-right: -6px;
+	margin-right: 0px;
 }
 .date .line{
 	width: 508px;

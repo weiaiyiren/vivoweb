@@ -80,7 +80,7 @@ $btn.onclick = function() {
 		return false;
 	} else {
 		// 发送ajax
-		sendAjax('http://10.36.141.213:88/git/vivoweb/server/php/zhuce.php', {
+		sendAjax(apiObj.register, {
 			data: {
 				user: tel,
 				password: $form.password.value
